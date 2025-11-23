@@ -1,0 +1,41 @@
+{
+  "queue_url": "https://sqs.us-east-1.amazonaws.com/111111111111/exampleQueue",
+  "sensors": [
+    {
+      "type": "temperature",
+      "interval_ms": 100,
+      "min_value": 18,
+      "max_value": 30,
+      "unit": "C",
+      "deviceId": "temp-1",
+      "location": {
+        "lat": 50.4501,
+        "lon": 30.5234
+      }
+    },
+    {
+      "type": "humidity",
+      "interval_ms": 150,
+      "min_value": 30,
+      "max_value": 80,
+      "unit": "%",
+      "deviceId": "hum-1",
+      "location": {
+        "lat": 50.4505,
+        "lon": 30.5240
+      }
+    },
+    {
+      "type": "light",
+      "interval_ms": 200,
+      "min_value": 100,
+      "max_value": 1000,
+      "unit": "lux",
+      "deviceId": "light-1",
+      "location": {
+        "lat": 50.4495,
+        "lon": 30.5220
+      }
+    }
+  ]
+}
